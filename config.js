@@ -14,7 +14,7 @@ module.exports = {
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "on", // on/off chat bot 
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "DARKZONE-MD",  // Bot's display name
-    MODE: getConfig("MODE") || process.env.MODE || "private",        // Bot mode: public/private/group/inbox
+    MODE: getConfig("MODE") || process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/ERFAN-Md/DARKZONE-MD/forkhttps://github.com/ERFAN-Md/DARKZONE-MD",  // Bot's GitHub repo
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
